@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 32px 0 32px 0;
+    margin: 20px 0;
   }
   
   .logo img {
@@ -50,7 +50,7 @@
 
   .main button {
     border: none;
-    margin: 30px;
+    margin: 25px;
     width: 250px;
     height: 35px;
     cursor: pointer;

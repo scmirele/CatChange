@@ -1,9 +1,16 @@
-var imgAtual = "./assets/cat.two.svg";
-var imgAnterior = "./assets/cat.one.svg";
+let btn = document.querySelector("#next-little-cat-button")
+console.log(btn)
+
+let imgOne = "./assets/cat.two.svg";
+let imgTwo = "./assets/cat.one.svg";
 
 function mudarImagem() {
-    document.getElementsByClassName("imagem").src = imgAtual;
-    let n = imgAtual;                    
-    imgAtual = imgAnterior;
-    imgAnterior = n;
+    let imagem = document.querySelector('.imagem')
+    imagem.src = imgOne;
+    let n = imgOne;                    
+    imgOne = imgTwo;
+    imgTwo = imgOne;
+    imgTwo = n;
 }
+
+btn.addEventListener("click", mudarImagem)
