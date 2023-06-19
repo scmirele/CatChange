@@ -46,6 +46,8 @@
 
   .imagem {
     height: 430px;
+    width: 100%;
+    object-fit: cover;
   }
 
   .main button {
