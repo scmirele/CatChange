@@ -1,67 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
   
-  body {
-    background-color: #232528;
-  }
+body {
+  background-color: #232528;
+}
   
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .logo img {
-    width: 80px;
-  }
-  
-  .logo p {
-    color: #FFA400;
-    font-size: 18px;
-    line-height: 48px;
-    
-    padding: 5px;
-  }
-  
-  .logo span {
-    color: #ffff;
-  }
-  
-  .main {
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    display: flex;
-    border-radius: 24px;  
-    align-items: center;
-    flex-direction: column;
-    background-color: #DC602E;
-  }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
 
-  .imagem {
-    height: 430px;
-    width: 100%;
-    object-fit: cover;
-  }
+.logo img {
+  width: 80px;
+}
 
-  .main button {
-    border: none;
-    margin: 25px;
-    width: 250px;
-    height: 35px;
-    cursor: pointer;
-    color: #FFA400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 24px;
-    background-color: rgba(255, 255, 255, 1);
-    /* transition: 0.5s ease-in-out; */
-  }
-  
+.logo p {
+  color: #FFA400;
+  font-size: 18px;
+  line-height: 48px;
+  padding: 5px;
+}
+
+.logo span {
+  color: #ffff;
+}
+
+.main {
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  border-radius: 24px;  
+  align-items: center;
+  flex-direction: column;
+  background-color: #DC602E;
+}
+
+.imagem {
+  height: 430px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main button {
+  border: none;
+  margin: 25px;
+  width: 250px;
+  height: 35px;
+  cursor: pointer;
+  color: #FFA400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+button:active {
+  transform: scale(0.94);
+}
